@@ -1,0 +1,10 @@
+# Pinned versions the released models were evaluated with.
+cupy-cuda11x==12.2.0         # softmax splatting CUDA kernels
+lpips==0.1.4                 # LPIPS metric (scripts/evaluate.py)
+scikit-image==0.20.0         # PSNR / SSIM (scripts/evaluate.py)
+scipy==1.9.1                 # scikit-image dependency, pinned
+imageio==2.9.0               # scikit-image dependency, pinned
+Pillow==9.4.0
+opencv-python==4.7.0.72
+h5py==3.9.0                  # E2D2 sequences (seq.h5)
+tqdm==4.65.0

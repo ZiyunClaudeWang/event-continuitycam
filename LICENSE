@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2025 Ziyun Wang, Friedhelm Hamann, Kenneth Chaney, Wen Jiang, Guillermo Gallego, Kostas Daniilidis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Third-party code and weights (not covered by the license above):
+
+- continuitycam/models/softsplat.py: softmax splatting by Simon Niklaus and Feng Liu,
+  https://github.com/sniklaus/softmax-splatting. Its authors state that the implementation is
+  strictly for academic purposes only; contact them for commercial use.
+- continuitycam/models/film.py adapts parts of FILM (Reda et al., ECCV 2022),
+  https://github.com/google-research/frame-interpolation, Apache License 2.0. The pretrained
+  FILM feature-extractor weights (extract.pt, distributed with the releases) are FILM's,
+  under the Apache License 2.0.
